@@ -1,8 +1,8 @@
 # include <iostream>
-# include "Personagem.h"
+# include "personagem.h"
 
 int main () {
-	Personagem heroi ("Heroi", 10, 100);	
+	Personagem heroi ("Heroi", 100, 10);	
 	heroi.apresentar();
 	return 0;
 }
