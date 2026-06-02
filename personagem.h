@@ -27,7 +27,7 @@ class Inimigo : public Personagem {
 			: Personagem(nome, vida, ataque), tipo(tipoPersonagem) {}
 			
 			void apresentar() {
-				std::cout<< "[INIMIGO] " << nome
+				std::cout<< ":3 [INIMIGO] " << nome
 						 << "| Tipo: " << tipo
 						 << "| Vida: " << vida
 						 << "| Ataque: " << ataque << std::endl;
