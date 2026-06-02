@@ -13,8 +13,8 @@ public:
 		: nome(nomePersonagem), vida(vidaPersonagem), ataque(ataquePersonagem) {}
 		
 	void apresentar () {
-		std:cout<< "Personagem: " << nome << std::end;
-		std:cout<< "Vida: " << vida << std::endl;
-		std:cout<< "Ataque: " << ataque << std::edl;	}
+		std::cout<< "Personagem: " << nome <<std::endl;
+		std::cout<< "Vida: " << vida <<std::endl;
+		std::cout<< "Ataque: " << ataque <<std::endl;	}
 	
 };
