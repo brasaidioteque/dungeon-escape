@@ -45,6 +45,31 @@ main {
   color: #c0c0d0;
 }
 
+/* ESTILO DOS PERSONAGENS LOGO ABAIXO */
+#personagens {
+  margin-top: 2rem;
+}
+
+#personagens h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #e94560;
+}
+
+#personagens ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}s
+
+#personagens li {
+  background-color: #16213e;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  color: #c0c0d0;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
